@@ -1,4 +1,4 @@
-name: Frontend Continuous Integration
+name: Frontend Continuous Integration_1
 
 on:
   pull_request:

@@ -1,4 +1,4 @@
-name: Frontend CD
+name: Frontend CD_1
 
 on:
   push:
@@ -60,7 +60,7 @@ jobs:
       run:
         working-directory: starter/frontend
     env:
-      REACT_APP_MOVIE_API_URL: http://afcc7d66df6f14b3384348f9276aeca1-349666479.us-east-1.elb.amazonaws.com
+      REACT_APP_MOVIE_API_URL: http://aef4564db3f784ee6bb7a65a8d59eff6-557260537.us-east-1.elb.amazonaws.com/movies
     steps:
       - uses: actions/checkout@v4
 
